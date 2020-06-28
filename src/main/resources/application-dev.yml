@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    username: root
-    password: Mn_950117_
-    url: jdbc:mysql://localhost/sjy?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: *
+    password: *
+    url: jdbc:mysql://localhost/*?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
